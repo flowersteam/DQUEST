@@ -679,6 +679,11 @@ html.theme--dark .project-card--completed {
   background: var(--tag-bg);
   color: var(--tag-text);
 }
+.project-card__status-precision {
+  font-weight: 400;
+  text-transform: none;
+  letter-spacing: normal;
+}
 
 .post__people {
   font-size: 0.88rem;
@@ -725,6 +730,12 @@ html.theme--dark .project-card--completed {
 .post__status--completed {
   background: #c8e8f5;
   color: #023047;
+}
+
+.post__status-precision {
+  font-weight: 400;
+  text-transform: none;
+  letter-spacing: normal;
 }
 
 @media (max-width: 768px) {
