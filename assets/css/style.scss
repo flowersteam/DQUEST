@@ -794,6 +794,12 @@ table {
       color: var(--tag-text);
     }
   }
+
+  &__status-precision {
+    font-weight: 400;
+    text-transform: none;
+    letter-spacing: normal;
+  }
 }
 
 // Post status badge (on individual post pages)
@@ -841,6 +847,12 @@ table {
     background: #c8e8f5;
     color: #023047;
   }
+}
+
+.post__status-precision {
+  font-weight: 400;
+  text-transform: none;
+  letter-spacing: normal;
 }
 
 @media (max-width: #{$breakpoint-mobile}) {

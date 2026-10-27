@@ -94,7 +94,7 @@ participate_type: "On-site" (or "Remote") (to change)
 | `date` | Yes | Date in `YYYY-MM-DD` format. Should match the filename date. |
 | `summary` | Yes | Short description shown on the project card. |
 | `permalink` | Yes | Slug for the project URL (e.g. `permalink: question-asking` → `developmentalsystems.org/DQUEST/question-asking/`). Omit the leading slash. |
-| `status` | Yes | Badge shown on the card and the page. Only `"Ongoing"` (yellow) and `"Completed"` (blue, card greyed out) are styled; other values (e.g. `"Under Development"`) are displayed without colour. |
+| `status` | Yes | Badge shown on the card and the page. Only `"Ongoing"` (yellow) and `"Completed"` (blue, card greyed out) are styled; other values (e.g. `"Under Development"`) are displayed without colour. A precision can be added in parentheses (e.g. `"Ongoing (Analyzing)"`): the colour follows the part before the parentheses, and the precision is shown in lighter text. |
 | `people` | Optional | List of collaborator names, displayed comma-separated on the card and the page. |
 | `location` | Optional | Where the study takes place, shown on the card and the page. |
 | `contact` | Optional | Contact person shown at the top of the project page, with `name` and `email` (the email becomes a `mailto:` link). |

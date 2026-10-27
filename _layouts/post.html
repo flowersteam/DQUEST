@@ -24,7 +24,10 @@ layout: default
     </p>
     {% endif %}
     {% if page.status %}
-    <span class="post__status post__status--{{ page.status | downcase | replace: ' ', '-' | replace: '-', '' }}">{{ page.status }}</span>
+    {% assign status_parts = page.status | split: '(' %}
+    {% assign status_base = status_parts[0] | strip %}
+    {% assign status_key = status_base | downcase | replace: ' ', '-' %}
+    <span class="post__status post__status--{{ status_key }}">{{ status_base }}{% if status_parts.size > 1 %} <span class="post__status-precision">({{ status_parts[1] | remove: ')' | strip }})</span>{% endif %}</span>
     {% endif %}
   </div>
   <div class="post__body">

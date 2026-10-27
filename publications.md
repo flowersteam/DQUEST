@@ -11,4 +11,4 @@ Here are our deep dive documents for the project. They have been published or pr
 *Nothing published yet.*
 
 ## Participation to Workshops and Conferences
-Soon: Psychology and Brain Conference 2026 in Hamburg, Germany
+Psychology and Brain Conference 2026 in Hamburg, Germany

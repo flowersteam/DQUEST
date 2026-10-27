@@ -4,7 +4,7 @@ title: "How curiosity enhances hippocampus-dependent learning across late childh
 date: 2026-05-11
 summary: "What happens to curiosity-driven learning as the brain develops?" 
 permalink: ipe_trivia
-status: "Analyzing"
+status: "Ongoing (Analyzing)"
 people:
   - "Ellen O'Donoghue"
   - "Megan Wadon"
