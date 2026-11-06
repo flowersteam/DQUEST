@@ -4,6 +4,7 @@ title: "Template Ongoing Experiment"
 date: 2024-05-20
 summary: summary....
 permalink: template_ongoing
+published: true # set to false to hide this post from the website
 status: "Ongoing"
 people:
   - "Collaborator 1"

@@ -4,6 +4,7 @@ title: "Longitudinal Development of Curiosity"
 date: 2026-05-11
 summary: summary
 permalink: longitudinal-development
+published: false # set to false to hide this post from the website
 status: "Ongoing"
 people:
   - "Billur Yaran"
