@@ -10,7 +10,7 @@ people:
   - "Megan Wadon"
   - "Ellen O'Donoghue"
   - "Matthias Gruber"
-thumbnail: "/images/pexels-cottonbro-9290021.jpg"
+thumbnail: "/images/posts/2026-05-11-question_asking/5214867.jpg"
 participate_type: "On-site"
 location: "Cardiff (UK)"
 contact:
